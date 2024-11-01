@@ -23,7 +23,7 @@ def add_logo_and_name():
     
     # Load and display profile picture using st.image
     try:
-        image = Image.open("E:/Portofolio/foto/photo_2024-10-26_09-25-53.jpg")
+        image = Image.open("foto/photo_2024-10-26_09-25-53.jpg")
         st.sidebar.image(image, use_column_width=True, caption="")
     except Exception as e:
         st.sidebar.error(f"Error loading image: {str(e)}")
